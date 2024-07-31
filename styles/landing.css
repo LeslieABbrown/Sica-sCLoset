@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.container{
+    min-height: 100vh;
+    background: url("../images/landingPage/bg1.avif") no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container header{
+    /* background: rgba(105, 105, 105, 0.812); */
+    background: rgba(0, 0, 0, 0.63);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .text-container{
+    max-width: 600px;
+}
+
+header .text-container .headings p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.headings .welcm{
+    letter-spacing: 1.3rem;
+    font-weight: bold;
+    font-size: 2.7rem;
+    /* margin-bottom: 2.5rem; */
+}
+
+.headings .welcm span{
+    font-size: 1.5rem;
+    letter-spacing: 1.1rem;
+    color: bisque;
+}
+
+.headings .brandname{
+    font-size: 3.8rem;
+    word-spacing: 1.1rem;
+    margin-top: 2.8rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: aqua!important;
+}
+
+.headings .brandname span{
+    font-size: 3rem;
+    letter-spacing: 1.1rem;
+    color: bisque;
+    font-weight: bold;
+}
+
+header .text-container p{
+    color: azure;
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-container .btn-container{
+    background: rgba(0, 0, 0, 0.63);
+    width: fit-content;
+    margin: 60px auto 0 auto;
+    border-radius: 4px;
+}
+
+.btn{
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    background-color: rgb(233, 80, 80);
+    border: none;
+    transform: translateY(-10px) translateX(10px);
+    transition:  transform 0.3s;
+    border-radius: 3px;
+}
+
+a .btn{
+    color:  aliceblue;
+    text-decoration: none;
+}
+
+.btn:hover{
+    transform: translateY(0) translateX(0);
+    cursor: pointer;
+}
+
+
+/* Right Session */
+.right-container{
+    background: rgba(0, 0, 0, 0.534);
+    height: 400px;
+    width: 400px;
+    border: 2px white solid;
+}
+
+.mini-container{
+    width: 80%;
+    height: 80%;
+    background: rgba(128, 128, 128, 0.336);
+    margin: auto;
+    /* transform: translateY(13%); */
+    border: 2px antiquewhite solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(35px) scale(1) rotate(45deg);
+    /* animation: 3s pageAnime 2; */
+}
+
+.mini-container h1{
+    font-family: sans-serif;
+    font-size: 3rem;
+    color: palegreen;
+    letter-spacing: 2px;
+}
+
+.mini-container h1 span{
+    color: aqua;
+}
+
+.mini-container p{
+    color: aliceblue;
+    font-size: 1.4rem;
+    line-height: 50px;
+}
+
+/* @keyframes pageAnime{
+    from{
+        transform: translateX(10px) skewX(20deg);
+    }
+    to{
+        transform: translateY(-10px) skewY(0deg);
+    }
+} */

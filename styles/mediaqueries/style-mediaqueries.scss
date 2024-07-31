@@ -1,0 +1,29 @@
+@media(max-width:1024px){
+.container{
+    header{
+        .before-nav{
+            display: none;
+        }
+        nav{
+            position: relative;
+            .secNav{
+                position: absolute;
+                background: blue;
+                left: 0;
+                bottom: -3rem;
+                width: 100%;
+                height: 3rem;
+                display: flex;
+                .search{
+                    position: absolute;
+                    right: 0;
+                }
+            }
+        }
+    }
+
+    section{
+      
+    }
+}
+}

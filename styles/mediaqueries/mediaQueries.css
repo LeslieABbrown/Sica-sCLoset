@@ -1,0 +1,183 @@
+@media  (max-width:1024px){
+    header .text-container{
+        max-width: 450px;
+    }
+
+    .headings .welcm{
+        font-size: 2.8rem;
+        letter-spacing: 1rem;
+    }
+
+    .headings .welcm span{
+        font-size: 1.3rem;
+        letter-spacing: 0.8rem;
+    }
+
+    .headings .brandname{
+        font-size: 3.2rem;
+        word-spacing: 1rem;
+        margin-top: 2.3rem;
+    }
+
+    .headings .brandname span{
+        font-size: 2.3rem;
+        letter-spacing: 1rem;
+    }
+
+    header .text-container p{
+        font-size: 1.2rem;
+    }
+
+    /* right container */
+    .right-container{
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width:768px){
+    .container{
+        height: fit-content; 
+    }
+
+    .container header{
+        flex-direction: column-reverse;
+    }
+
+    /* Right session */
+    .right-container{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .mini-container{
+        transform: translateY(30px) scale(1) rotate(45deg);
+    }
+}
+
+@media (max-width: 425px){
+
+    header .text-container{
+        max-width: 350px;
+    }
+
+    .headings .welcm{
+        font-size: 2.6rem;
+    }
+
+    .headings .welcm span{
+        letter-spacing: 0.9rem;
+    }
+
+    .headings .brandname{
+        font-size: 3.4rem;
+        line-height: 45px;
+    }
+
+    header .text-container p{
+        font-size: 1.2rem;
+    }
+
+    /* Right session */
+    .right-container{
+        height: 250px;
+        width: 250px;
+        border: none;
+        background: transparent;
+    }
+
+    .mini-container{
+        transform: translateY(25px) scale(1) rotate(0);
+        animation: pageAnime 2s infinite;
+    }
+
+    .mini-container h1{
+        font-size: 2.2rem;
+    }
+
+
+    @keyframes pageAnime{
+        from{
+            transform: translateX(10px) translateY(10px) skewX(10deg);
+        }
+        to{
+            transform: translateY(15px) skewY(0deg);
+        }
+    }
+}
+
+@media (max-width: 375px){
+
+    header .text-container{
+        max-width: 300px;
+    }
+
+    .headings .welcm{
+        font-size: 1.8rem;
+        letter-spacing: 0.9rem;
+    }
+
+    .headings .welcm span{
+        letter-spacing: 0.5rem;
+        margin-left: 4px;
+    }
+
+    .headings .brandname{
+        font-size: 2.8rem;
+        transform: translateY(-6px);
+    }
+
+    header .text-container{
+        transform: translateY(-20px);
+    }
+
+    header .text-container p{
+        font-size: 1.2rem;
+        line-height: 26px;
+    }
+
+    .text-container .btn-container{
+        /* margin-top: 45px; */
+        transform: translateY(10px);
+    }
+
+    .btn{
+        font-size: 1rem;
+        padding: 10px 22px;
+    }
+
+    .right-container{
+        height: 23px;
+        width: 230px;
+        transform: translateY(-20px);
+        
+    }
+
+    .container header{
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 320px){
+    .right-container{
+        height: 23px;
+        width: 200px;
+        transform: translateY(-20px);
+        
+    }
+
+    .mini-container h1{
+        font-size: 2rem;
+    }
+
+    .headings .welcm span{
+        margin-left: 2px;
+    }
+}
+
+@media (max-width: 320px){
+    header .text-container{
+        max-width: 250px;
+    }
+}

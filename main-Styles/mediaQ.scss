@@ -1,0 +1,362 @@
+/* @media(max-width:1024px){
+    .container{
+        .hero{
+            article{
+                .deals-container{
+                    .new{
+                        h1{
+                            transform: translateY(65%);
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+} */
+ /* @media(max-width: 1444px){
+    .container{
+        .hero > .categories{
+            left: 18rem;
+        }
+    }
+ } */
+@media(max-width:1000px){
+    .container{
+        .before-nav{
+            display: none;
+        }
+        nav{
+            transform: translateY(0);
+            padding: 1.1rem 10%;
+            
+            .secNav{
+                position: absolute;
+                bottom: -4.2rem;
+                left: 0;
+                background: rgba(191, 201, 212, 0.603);
+                width: 100%;
+                padding: 10px 0 10px 5rem;
+                gap: 20%;
+                .burger{
+                    display: flex;
+                }
+                .search{
+                    width: 55%;
+                    justify-content: center;
+                    input{
+                        width: 80%;
+                        font-size: 18px;
+                    }
+                }
+                .close-menu{
+                    font-size: 1.5rem;
+                    display: none;
+                    font-weight: 600;
+                    color: rgb(53, 44, 44);
+                    transition: all .3s;
+                    margin-right: 10px;
+                }
+            }
+        }
+        .hero{
+            padding-top: 9rem;
+            position: relative;
+            aside{
+                position: absolute;
+                left: -30rem;
+                transition: all .3s;
+                z-index: 100;
+                .menu{
+                    background: #fff;
+                }
+            }
+            .show-sideBar{
+                left: -5px;
+            }
+            article{
+                width: 100%;
+                margin-left: 0;
+                header{
+                    width: 100%;
+                    margin: auto;
+                    .discount{
+                        p{
+                            font-size: 2.5rem;
+                            max-width: 500px;
+                        }
+                    }
+                }
+                .deals-container{
+                    .new{
+                        margin-left: 0;
+                    }
+                }
+            }
+            .categories{
+                /* display: flex; */
+                width: 60%;
+                left: 15.7rem;
+                padding-left: 10px;
+
+                .title{
+                    width: fit-content;
+                    max-width: 90%;
+                }
+            }
+            footer{
+                gap: 8rem;
+                padding-bottom: 8rem;
+            }
+        }
+        
+    }
+}
+@media(max-width:768px){
+    .container{
+        nav{
+            .logo{
+                h1{
+                    font-size: 30px;
+                    span{
+                        font-size: 20px;
+                    }
+                }
+            }
+            .icons{
+                i{
+                    font-size: 18px;
+                }
+                p{
+                    font-size: 12px;
+                }
+                .user:hover{
+                    .auth{
+                        display: block;
+                        font-size: 12px;
+                    }
+                }
+                .cart:hover{
+                    .cart-quantity{
+                        font-size: 14px;
+                    }
+                }
+            }
+            .secNav{
+                bottom: -4rem;
+                padding-left:  10%;
+                z-index: 10001;
+                .search{
+                    input{
+                        font-size: 16px;
+                    }
+                    button{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .hero{
+            padding-top: 8.6rem;
+
+            article{
+                .deals-container{
+                    .new{
+                        h1{
+                            font-size: 1.7rem;
+                            line-height: 2.5rem;
+                            max-width: 60%;
+                            margin: auto;
+                            transform: translateY(81%);
+                            span{
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .hero{
+            padding-top: 8.6rem;
+
+            article{
+                .deals-container{
+                    .new{
+                        h1{
+                            font-size: 1.7rem;
+                            line-height: 2.5rem;
+                            max-width: 60%;
+                            margin: auto;
+                            transform: translateY(81%);
+                            span{
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                }
+                footer{
+                    flex-direction: column;
+                    gap: 3rem;
+                    height: auto;
+                    padding: 10rem 0;
+                    .foot-elements{
+                        width: 60%;
+                        
+                    }
+                }
+            }
+            .show-categories{
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width:525px){
+    .container{
+        nav{
+            .secNav{
+                gap: 32px;
+                padding-left: 5%;
+                padding-right: 3%;
+                .search{
+                    width: 80%;
+                }
+            }
+        }
+        .hero{
+            article{
+                header{
+                    background-size: cover;
+                }
+                .deals-container{
+                    .new{
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:670px){
+    .container{
+        .hero{
+            footer{
+                .foot-left{
+                    flex-direction: column;
+                }
+                .ads{
+                    form{
+                        .email{
+                            width: 90%;
+                            margin-bottom: 1.5rem;
+                        }
+                        .send{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+@media (max-width:425px){
+    .container{
+        nav{
+            padding-left: 4%;
+            .icons{
+                gap: 30px;
+                .user, .cart{
+                    i{
+                        font-size: 15px;
+                    }
+                    .auth{
+                        top: -8px;
+                    }
+                }
+                .cart{
+                    .cart-quantity{
+                        right: -16px;
+                    }
+                }
+            }
+            .secNav{
+                gap: 20px;
+            }
+        }
+        .hero{
+            article{
+                header{
+                    .discount{
+                        p{
+                            font-size: 2.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:375px){
+    .container{
+        nav{
+            padding-left: 7%;
+            .logo{
+                h1{
+                    font-size: 26px;
+                    span{
+                        display: block;
+                        margin-left: 25%;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .icons{
+                .user, .cart{
+                    .auth{
+                        top: -15px;
+                        right: 1.08rem;
+                    }
+                }
+            }
+            .secNav{
+                gap: 15px;
+                .burger{
+                    span{
+                        width: 23px;
+                    }
+                }
+            }
+        }
+        .hero{
+            padding-top: 9.4rem;
+            aside{
+                top: 22%;
+            }
+            article{
+                header{  
+                    margin-left: 4%;
+                    .discount{
+                        p{
+                            font-size: 2rem;
+                            transform: translateY(80%);
+                        }
+                    }
+                }
+            }
+            footer{
+                .ads{
+                    form{
+                        .email{
+                            width: 90%;
+                            max-width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

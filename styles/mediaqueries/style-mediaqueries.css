@@ -1,0 +1,23 @@
+@media (max-width: 1024px) {
+  .container header .before-nav {
+    display: none;
+  }
+  .container header nav {
+    position: relative;
+  }
+  .container header nav .secNav {
+    position: absolute;
+    background: blue;
+    left: 0;
+    bottom: -3rem;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+  }
+  .container header nav .secNav .search {
+    position: absolute;
+    right: 0;
+  }
+}
+
+/*# sourceMappingURL=style-mediaqueries.css.map */

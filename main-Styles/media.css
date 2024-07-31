@@ -1,0 +1,219 @@
+/* @media(max-width:1024px){
+    .container{
+        .hero{
+            article{
+                .deals-container{
+                    .new{
+                        h1{
+                            transform: translateY(65%);
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+} */
+@media (max-width: 1000px) {
+  .container .before-nav {
+    display: none;
+  }
+  .container nav {
+    transform: translateY(0);
+    padding: 1.1rem 10%;
+  }
+  .container nav .secNav {
+    position: absolute;
+    bottom: -4.2rem;
+    left: 0;
+    background: rgba(191, 201, 212, 0.603);
+    width: 100%;
+    padding: 10px 0 10px 5rem;
+    gap: 20%;
+  }
+  .container nav .secNav .burger {
+    display: flex;
+  }
+  .container nav .secNav .search {
+    width: 55%;
+    justify-content: center;
+  }
+  .container nav .secNav .search input {
+    width: 80%;
+    font-size: 18px;
+  }
+  .container nav .secNav .close-menu {
+    font-size: 1.5rem;
+    display: none;
+    font-weight: 600;
+    color: rgb(53, 44, 44);
+    transition: all 0.3s;
+    margin-right: 10px;
+  }
+  .container .hero {
+    padding-top: 9rem;
+  }
+  .container .hero aside {
+    position: absolute;
+    top: 20%;
+    left: -30rem;
+    transition: all 0.3s;
+  }
+  .container .hero aside .menu {
+    background: #fff;
+  }
+  .container .hero .show-sideBar {
+    left: -5px;
+  }
+  .container .hero article {
+    width: 100%;
+    margin-left: 0;
+  }
+  .container .hero article header {
+    width: 100%;
+    margin: auto;
+  }
+  .container .hero article header .discount p {
+    font-size: 2.5rem;
+    max-width: 500px;
+  }
+  .container .hero article .deals-container .new {
+    margin-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .container nav .logo h1 {
+    font-size: 30px;
+  }
+  .container nav .logo h1 span {
+    font-size: 20px;
+  }
+  .container nav .icons i {
+    font-size: 18px;
+  }
+  .container nav .icons p {
+    font-size: 12px;
+  }
+  .container nav .icons .user:hover .auth {
+    display: block;
+    font-size: 12px;
+  }
+  .container nav .icons .cart:hover .cart-quantity {
+    font-size: 14px;
+  }
+  .container nav .secNav {
+    bottom: -4rem;
+    padding-left: 10%;
+    z-index: 10001;
+  }
+  .container nav .secNav .search input {
+    font-size: 16px;
+  }
+  .container nav .secNav .search button {
+    font-size: 16px;
+  }
+  .container .hero {
+    padding-top: 8.6rem;
+  }
+  .container .hero article .deals-container .new h1 {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    max-width: 60%;
+    margin: auto;
+    transform: translateY(81%);
+  }
+  .container .hero article .deals-container .new h1 span {
+    font-size: 2rem;
+  }
+  .container .hero {
+    padding-top: 8.6rem;
+  }
+  .container .hero article .deals-container .new h1 {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    max-width: 60%;
+    margin: auto;
+    transform: translateY(81%);
+  }
+  .container .hero article .deals-container .new h1 span {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 525px) {
+  .container nav .secNav {
+    gap: 32px;
+    padding-left: 5%;
+    padding-right: 3%;
+  }
+  .container nav .secNav .search {
+    width: 80%;
+  }
+  .container .hero article .deals-container .new h1 {
+    font-size: 1.6rem;
+    max-width: 100%;
+  }
+  .container .hero article .deals-container .new h1 span {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 425px) {
+  .container nav {
+    padding-left: 4%;
+  }
+  .container nav .icons {
+    gap: 30px;
+  }
+  .container nav .icons .user i, .container nav .icons .cart i {
+    font-size: 15px;
+  }
+  .container nav .icons .user .auth, .container nav .icons .cart .auth {
+    top: -8px;
+  }
+  .container nav .icons .cart .cart-quantity {
+    right: -16px;
+  }
+  .container nav .secNav {
+    gap: 20px;
+  }
+  .container .hero article header .discount p {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 375px) {
+  .container nav {
+    padding-left: 7%;
+  }
+  .container nav .logo h1 {
+    font-size: 26px;
+  }
+  .container nav .logo h1 span {
+    display: block;
+    margin-left: 25%;
+    font-size: 16px;
+  }
+  .container nav .icons .user .auth, .container nav .icons .cart .auth {
+    top: -15px;
+    right: 1.08rem;
+  }
+  .container nav .secNav {
+    gap: 15px;
+  }
+  .container nav .secNav .burger span {
+    width: 23px;
+  }
+  .container .hero {
+    padding-top: 9.4rem;
+  }
+  .container .hero aside {
+    top: 22%;
+  }
+  .container .hero article header {
+    margin-left: 4%;
+  }
+  .container .hero article header .discount p {
+    font-size: 2rem;
+    transform: translateY(80%);
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

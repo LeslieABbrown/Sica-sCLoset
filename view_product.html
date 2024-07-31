@@ -1,0 +1,456 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>View Product</title>
+        <link rel="stylesheet" href="./main-Styles/viewProduct.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="container">
+        <div class="before-nav">
+            <p>Freeee! delivery to customers near KTU or orders more than GH&#8373; 4,000.</p>
+        </div>
+        <nav>
+            <div class="logo">
+                <h1>Sica's <span>Closet</span></h1>
+            </div>
+            <div class="secNav">
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <p class="close-menu">X</p>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="search items..">
+                    <button>search</button>
+            </div>
+            </div>
+            <div class="icons">
+                <div class="user">
+                    <i class="fa-solid fa-user"></i>
+                    <p>Account</p>
+                    <p class="auth">
+                        <a href="#">login / signup</a>
+                    </p>
+                </div>
+                <div class="cart">
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <p>cart</p>
+                    <p class="cart-quantity">0</p>
+                </div>
+                
+            </div>
+            <aside>
+                <div class="menu">
+                    <ul>
+                        <li><a class="active" href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li>Categories <span>:</span>
+                            <ul>
+                                <li><a id="fashion" class="close-cat" href="#">Fashion<span>></span></a></li>
+                                <li><a id="fragrances" class="close-cat"  href="#">Fragrances &  Beauty<span>></span></a></li>
+                                <li><a href="#">Appliances</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Request a Product!</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li>Hotline: <p>
+                            <i class="fa-solid fa-phone"></i> <span>
+                                +233-55-776-2285
+                            </span>
+                        </p></li> 
+                        <li class="wish-list"><a href="#">
+                            <i class="fa-regular fa-heart"></i>
+                            <p class="quantity">0</p>
+                        </a></li>
+                    </ul>
+                </div>
+            </aside>
+        </nav>
+        <section class="hero">
+            <div class="product-img">
+                <div class="main-img"></div>
+                <div class="mini-img">
+                    <div class="img img1"></div>
+                    <div class="img img2"></div>
+                    <div class="img img2"></div>
+                    <div class="img img2"></div>
+                </div>
+            </div>
+            <div class="about-product">
+                <div class="product-name">Multi-coloured Snaq Jue Perfume</div>
+                <div class="rating">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <div class="reviews">
+                        <p class="reviews-number">(1.8k)</p>
+                        <p>Review(s)</p>
+                    </div>
+                </div>
+                <p class="price">GH&#8373;<del> 600</del> 520</p>
+                <div class="product-info">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates at minus distinctio eum cumque exercitationem eligendi, laudantium ea quam saepe.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates at minus distinctio eum cumque exercitationem eligendi, laudantium ea quam saepe.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates at minus distinctio eum cumque exercitationem eligendi, laudantium ea quam saepe.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates at minus distinctio eum cumque exercitationem eligendi, laudantium ea quam saepe.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates at minus distinctio eum cumque exercitationem eligendi, laudantium ea quam saepe.
+                    </p>
+                </div>
+                <div class="available-options">
+                    <div class="title">
+                        <h2>Available options</h2>
+                    </div>
+                    <div class="options-wrap">
+                        <div class="color">
+                            <h4>Color</h4>
+                            <div class="color-wrap">
+                                <div class="color-picker red"></div>
+                            <div class="color-picker blue"></div>
+                            <div class="color-picker black"></div>
+                            <div class="color-picker green"></div>
+                            </div>
+                        </div>
+                        <div class="size">
+                            <h4>Size</h4>
+                            <div class="size-wrap">
+                                <button>S</button>
+                                <button>M</button>
+                                <button>L</button>
+                                <button>XL</button>
+                                <button>XXL</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="purchase">
+                    <div class="quantity">
+                        <p class="title">Quantity:</p>
+                        <div class="opt">
+                            <p class="remove">-</p>
+                            <p class="item-qty">1</p>
+                            <p class="add">+</p>
+                        </div>
+                    </div>
+                    <div class="add-item">
+                        <button class="cart">Add To Cart</button>
+                        <div class="wish"> 
+                            <i class="fa-regular fa-heart"></i>   
+                        </div>
+                    </div>
+                </div>
+                <div class="last-info">
+                    <div class="category">
+                        <span class="l-title">Category: </span><span class="category-name">Perfumes</span>
+                    </div>
+                    <div class="availabilty">
+                        <span class="l-title">Availabilty: </span><span class="availability">210 Products in stock</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="similar-products">
+            <div class="title">
+                <h2>Similar Products</h2>
+            </div>
+            <div class="deals-wrap">
+                <div class="deals-card">
+                    <div class="img img1">
+                        <div class="view">
+                            <a href="#">View Product</a>
+                        </div>
+                    </div>
+                    <div class="item-status">Sale</div>
+                    <p class="item-name">Multi-coloured T-shirts (Men)</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <div class="purchase">
+                        <p class="price">GH&#8373; 200</p>
+                        <div class="icons">
+                            <div class="wish">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>  
+                            <div class="add-to-cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="deals-card">
+                    <div class="img img2">
+                        <div class="view">
+                            <a href="#">View Product</a>
+                        </div>
+                    </div>
+                    <div class="item-status">Sale</div>
+                    <p class="item-name">Multi-coloured T-shirts (Men)</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <div class="purchase">
+                        <p class="price">GH&#8373; 200</p>
+                        <div class="icons">
+                            <div class="wish">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>  
+                            <div class="add-to-cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="deals-card">
+                    <div class="img img7">
+                        <div class="view">
+                            <a href="#">View Product</a>
+                        </div>
+                    </div>
+                    <div class="item-status item-out">Out of Stock</div>
+                    <p class="item-name">Multi-coloured T-shirts (Men)</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <div class="purchase">
+                        <p class="price">GH&#8373; 200</p>
+                        <div class="icons">
+                            <div class="wish">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>  
+                            <div class="add-to-cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="deals-card">
+                    <div class="img img3">
+                        <div class="view">
+                            <a href="#">View Product</a>
+                        </div>
+                    </div>
+                    <div class="item-status">Sale</div>
+                    <p class="item-name">Multi-coloured T-shirts (Men)</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <div class="purchase">
+                        <p class="price">GH&#8373; 200</p>
+                        <div class="icons">
+                            <div class="wish">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>  
+                            <div class="add-to-cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="deals-card">
+                    <div class="img img4">
+                        <div class="view">
+                            <a href="#">View Product</a>
+                        </div>
+                    </div>
+                    <div class="item-status">Sale</div>
+                    <p class="item-name">Multi-coloured T-shirts (Men)</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <div class="purchase">
+                        <p class="price">GH&#8373; 200</p>
+                        <div class="icons">
+                            <div class="wish">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>  
+                            <div class="add-to-cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="deals-card">
+                    <div class="img img5">
+                        <div class="view">
+                            <a href="#">View Product</a>
+                        </div>
+                    </div>
+                    <div class="item-status">Sale</div>
+                    <p class="item-name">Multi-coloured T-shirts (Men)</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <div class="purchase">
+                        <p class="price">GH&#8373; 200</p>
+                        <div class="icons">
+                            <div class="wish">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>  
+                            <div class="add-to-cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="deals-card">
+                    <div class="img img6">
+                        <div class="view">
+                            <a href="#">View Product</a>
+                        </div>
+                    </div>
+                    <div class="item-status item-out">Out of Stock</div>
+                    <p class="item-name">Multi-coloured T-shirts (Men)</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <div class="purchase">
+                        <p class="price">GH&#8373; 200</p>
+                        <div class="icons">
+                            <div class="wish">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>  
+                            <div class="add-to-cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>    
+                <div class="deals-card">
+                    <div class="img img8">
+                        <div class="view">
+                            <a href="#">View Product</a>
+                        </div>
+                    </div>
+                    <div class="item-status item-out">Out of Stock</div>
+                    <p class="item-name">Multi-coloured T-shirts (Men)</p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <div class="purchase">
+                        <p class="price">GH&#8373; 200</p>
+                        <div class="icons">
+                            <div class="wish">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>  
+                            <div class="add-to-cart">
+                                <i class="fa-solid fa-cart-plus"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <footer>
+            <div class="foot-left">
+                <div class="shop">
+                    <h2>Shop</h2>
+                    <ul>
+                        <li><a href="#">Request A Product</a></li>
+                        <li><a href="#">Store Locator</a></li>
+                        <li><a href="#">Refer a Friend</a></li>
+                        <li><a href="#">Mine Bitcoin</a></li>
+                        <li><a href="#">Track Orders</a></li>
+                    </ul>
+                </div>
+                <div class="help">
+                    <h2>Help</h2>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Accessiblity</a></li>
+                    </ul>
+                </div>
+                <div class="about">
+                    <h2>About</h2>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Lorem.</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="foot-right">
+                <div class="ads">
+                    <p>Sign up! to get 10% off your first order</p>
+                    <form action="#">
+                        <input class="email" type="email" placeholder="Your Email Address">
+                        <input class="send" type="submit">
+                    </form>
+                    <div class="icons">
+                        <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="after-footer">
+                <div class="policies">
+                    <a href="#">Privacy Policies</a>
+                    <a href="#">Do Not Sell My Information</a>
+                </div>
+                <div class="copyright">
+                    &copy; 2024 Sica's Closet. All Rights Reserved
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+    <script src="./script/view.js"></script>
+</body>
+</html>
